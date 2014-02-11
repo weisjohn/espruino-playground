@@ -15,7 +15,7 @@ function dice() {
     i++;
     leds[i % 3].write(true);
     leds[(i - 1) % 3].write(false);
-    if (i == stop) return;
+    if (i >= stop) return;
     setTimeout(dice, i * 10);
 }
 
