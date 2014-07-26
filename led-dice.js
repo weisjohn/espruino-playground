@@ -26,4 +26,4 @@ function roll() {
 }
 
 // register to the button press
-setWatch(roll, BTN, {edge:"falling", repeat:true});
+setWatch(roll, BTN, { edge: "falling", repeat: true });
